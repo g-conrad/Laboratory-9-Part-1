@@ -23,3 +23,15 @@ int main() {
     cout << "The random integers: ";
     for (int i = 0; i < arraySize; i++) {
         cout << randomIntegers[i] << " ";
+
+    }
+
+    cout << endl;
+
+    // Print every element at an even index
+    cout << "Even indices: ";
+    for (int i = 0; i < arraySize; i += 2)
+    {
+        cout << randomIntegers[i] << " ";
+    }
+    cout << endl;
