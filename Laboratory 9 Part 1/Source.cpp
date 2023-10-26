@@ -56,3 +56,6 @@ int main() {
         cout << randomIntegers[i] << " ";
     }
     cout << endl;
+
+    //Print only the first and last element
+    cout << "First and Last: " << randomIntegers[0] << " " << randomIntegers[arraySize - 1] << endl;
