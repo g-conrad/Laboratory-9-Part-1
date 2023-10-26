@@ -48,3 +48,11 @@ int main() {
 
     }
     cout << endl;
+
+    // Print all elements in reverse order
+    cout << "Reversed order: ";
+    for (int i = arraySize - 1; i >= 0; i--)
+    {
+        cout << randomIntegers[i] << " ";
+    }
+    cout << endl;
